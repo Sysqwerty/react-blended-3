@@ -1,9 +1,9 @@
 import { Text } from 'components';
 
-export const Todo = () => {
+export const Todo = ({ id, text, index }) => {
   return (
     <Text textAlign="center" marginBottom="20">
-      TODO #
+      TODO #{index}
     </Text>
   );
 };
